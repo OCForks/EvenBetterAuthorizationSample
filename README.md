@@ -1,5 +1,5 @@
-Read Me About EvenBetterAuthorizationSample
-===========================================
+EvenBetterAuthorizationSample
+=============================
 1.0
 
 EvenBetterAuthorizationSample shows how to factor privileged operations out of your application and into a privileged helper tool that is run by launchd.  When your application must do privileged operations, Apple recommends that you use this approach because it improves security by:
