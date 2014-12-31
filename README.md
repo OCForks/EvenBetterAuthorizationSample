@@ -1,0 +1,4 @@
+EvenBetterAuthorizationSample
+=============================
+
+EvenBetterAuthorizationSample shows how to factor privileged operations out of your application and into a privileged helper tool that is run by launchd. It uses modern technology—namely SMJobBless, introduced in 10.6, and NSXPCConnection, introduced in 10.8—to radically reduce the code needed to support privileged helper tools as compared to older samples. You should study this sample if your application needs ongoing access to privileged operations. For example, if you're writing a packet capture tool (where the underlying technology, BPF, is only available to a privileged process) and you want to make it available to users in a controlled and configurable fashion (determined by an authorization right), EvenBetterAuthorizationSample is for you.
